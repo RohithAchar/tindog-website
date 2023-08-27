@@ -51,6 +51,7 @@ h1{
   padding:7% 15%;
   background-color: #fff;
   position: relative;
+  text-align: center;
   z-index: 1;
 }
 #features i{
