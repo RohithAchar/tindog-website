@@ -32,9 +32,9 @@ h1{
   padding: 1rem;
 }
 #title img{
-  rotate:30deg;
+  rotate:20deg;
   position: absolute;
-  right:23%; 
+  right:20%; 
 }
 .navbar a{
   margin:1.2rem;
@@ -116,4 +116,20 @@ h2{
 }
 .ind-cards{
   margin:3% 0;
+}
+@media (max-width:992px){
+  #title{
+    text-align: center;
+
+  }
+  .navbar{
+    padding-bottom: 0rem;
+  }
+  #title img{
+    rotate:0deg;
+    position: static;
+  }
+  .container-fluid{
+    padding-bottom: 50px;
+  }
 }
